@@ -1,0 +1,177 @@
+
+.container{
+  display: flex;
+  flex-direction: column;  
+  width: 400px ;
+}
+h2, h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+
+button {
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.ask-catura {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ask-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ask-header .actions button {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.greeting-template {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
+  color: #555;
+}
+
+.template-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.template-buttons button {
+  background: #007bff;
+  color: white;
+  padding: 5px 15px;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.message-input .send-button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+
+.action-launcher {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.action-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.action-button {
+  width: 40%;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #e8f4ff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-button.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+
+.case-favorite {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.case-item {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+  .actions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .message-input {
+    flex-direction: column;
+  }
+
+  .message-input input {
+    margin-bottom: 10px;
+  }
+}
+
+

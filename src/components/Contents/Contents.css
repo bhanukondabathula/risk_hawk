@@ -1,0 +1,14 @@
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    
+}
+@media (min-width: 786px) {
+    .content-container{
+        flex-direction: row;
+        flex: 1;
+    }
+}

@@ -1,0 +1,187 @@
+
+.user-card {
+  width:100%;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e6e9ef;
+}
+
+.avatar {
+  background-color:rgb(211, 210, 210);
+  border: 1px solid #4C62921A;
+  color: rgb(1, 11, 31);
+  font-size: 14px;
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.user-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.details-section {
+  padding: 15px;
+  border: 1px solid #e6e9ef;
+  background-color: #f8fcfc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detail:last-child {
+  margin-bottom: 0;
+}
+
+.detail span {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.detail strong {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0d0d0d;
+  background: lightgray;
+  border: 1px solid #b1b1b6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.add-button:hover {
+  background-color: #e8f4ff;
+}
+
+.actions {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.assign-agent {
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.assign-agent:hover {
+  background-color: #0056b3;
+}
+
+.add-widget {
+  padding: 12px;
+  background-color: #f8f9fc;
+  color: #007bff;
+  border: 1px dashed #007bff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-widget:hover {
+  background-color: #e8f4ff;
+}
+.dots{
+  text-align: center;
+  margin-left: 8px;
+}
+@media (min-width: 768px) {
+  .user-card {
+    width: 400px;
+    margin: 8px;
+  }
+
+  .user-header {
+    padding: 30px;
+  }
+
+  .avatar {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+
+  .user-info h3 {
+    font-size: 18px;
+  }
+
+  .user-info p {
+    font-size: 16px;
+  }
+
+  .details-section {
+    padding: 20px;
+  }
+
+  .detail span {
+    font-size: 16px;
+  }
+
+  .detail strong {
+    font-size: 16px;
+  }
+
+  .add-button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .assign-agent,
+  .add-widget {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
